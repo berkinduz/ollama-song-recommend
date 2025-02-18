@@ -2,7 +2,7 @@
 
 A web application that provides personalized song recommendations using **Ollama** and **Llama3.2** (local LLM), built with Tailwind CSS and JavaScript.
 
-![App Screenshot](./public/how-it-work.png)
+![App Screenshot](./public/how-it-works.png)
 
 ## 🚀 Quick Start
 
