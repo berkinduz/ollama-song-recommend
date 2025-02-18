@@ -1,6 +1,6 @@
 # 🎵 Song Recommendation App
 
-A web application that provides personalized song recommendations using **Ollama** and **Llama3.2** (local LLM), built with Tailwind CSS and JavaScript.
+A web application that provides personalized song recommendations using **Ollama** and **Llama3.2** (local LLM) with OpenAI library, built with Tailwind CSS and JavaScript.
 
 ![App Screenshot](./public/image.png)
 
@@ -9,8 +9,8 @@ A web application that provides personalized song recommendations using **Ollama
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/song-recommendation-app.git
-cd song-recommendation-app
+git clone git@github.com:berkinduz/ollama-song-recommend.git
+cd ollama-song-recommend
 ```
 
 2. **Install dependencies**
