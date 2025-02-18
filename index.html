@@ -6,7 +6,6 @@
     <title>Song Recommendation</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Custom animations */
       @keyframes fadeIn {
         from {
           opacity: 0;
@@ -25,11 +24,9 @@
   <body
     class="bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen text-white font-sans flex flex-col items-center justify-center p-4"
   >
-    <!-- Main Container -->
     <div
       class="w-full max-w-2xl bg-gray-800/70 backdrop-blur-lg rounded-xl shadow-2xl overflow-hidden border border-gray-700/30"
     >
-      <!-- Header -->
       <div class="p-6 bg-gradient-to-r from-blue-600 to-purple-600">
         <h1 class="text-3xl font-bold text-center">Song Recommendation</h1>
         <p class="text-sm text-gray-200 text-center mt-2">
@@ -37,7 +34,6 @@
         </p>
       </div>
 
-      <!-- Form Section -->
       <div class="p-6">
         <form id="songForm" class="space-y-4">
           <input
@@ -57,7 +53,6 @@
         </form>
       </div>
 
-      <!-- Loading State -->
       <div id="loadingText" class="p-6 text-center text-gray-300 hidden">
         <div class="animate-pulse">
           <p class="text-lg">
@@ -69,24 +64,12 @@
         </div>
       </div>
 
-      <!-- Recommendations Section -->
       <div id="content" class="p-6 space-y-4 fade-in hidden">
         <h2 class="text-2xl font-bold text-center">Your Recommendations</h2>
-        <div class="space-y-3">
-          <!-- Example Recommendation -->
-          <div
-            class="p-4 bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition-all"
-          >
-            <p class="text-lg font-semibold">"Nude" – Radiohead</p>
-            <p class="text-sm text-gray-300">
-              A hauntingly beautiful track with emotional depth.
-            </p>
-          </div>
-          <!-- Add more recommendations dynamically -->
-        </div>
+        <div class="space-y-3" id="recommendationsList"></div>
       </div>
     </div>
 
-    <script type="module" src="../src/main.js"></script>
+    <script src="./src/main.js"></script>
   </body>
 </html>
